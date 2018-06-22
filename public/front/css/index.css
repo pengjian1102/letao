@@ -1,0 +1,39 @@
+.let-content .nav{
+  width: 100%;
+  padding: 10px;
+}
+.let-content .nav li{
+  float: left;
+  width: 33.33%
+
+}
+.let-content .nav img{
+  width: 100%;
+  height: 100%;
+}
+.lt_product a {
+  float: left;
+  width: 48%;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+.lt_product{
+  padding: 10px;
+}
+.lt_product a .price {
+  color: red;
+}
+
+.lt_product a .old_price {
+  text-decoration: line-through;
+}
+
+.lt_product a:nth-child(even) {
+  margin-left: 4%;
+}
+.lt_product a img{
+  width: 100%;
+}

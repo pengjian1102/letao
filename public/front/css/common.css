@@ -1,0 +1,92 @@
+body,html{
+  height: 100%;
+}
+*{
+  margin:0;
+  padding: 0;  
+  list-style: none;
+}
+a{
+  color: #fff;
+}
+a:link,
+a:hover,
+a:active,
+a:visited{
+  color: #fff;
+}
+.container{
+  max-width: 640px;
+  min-width: 320px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: pink;
+  position: relative;
+  padding-top:45px;
+  padding-bottom: 52px; 
+}
+.let-header{
+  background-color: #069;
+  height: 45px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.let-header a{
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+}
+h4{
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+.let-header .fl{
+  float: left;
+}
+.let-header .fr{
+  float: right;
+}
+.let-header h4{
+  line-height: 45px;
+}
+
+
+.let-footer{
+  background-color: #069;
+  height: 52px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.let-footer ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  height: 100%;
+}
+.let-footer ul li a{
+  padding-top: 7px;
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+}
+.let-footer p{
+  color: #fff;
+  margin: 0;
+}
+
+
+.let-content{
+  height: 100%;
+  width: 100%;
+  
+  position: relative;
+}
+
+
